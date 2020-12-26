@@ -5,7 +5,7 @@ import * as Speech from 'expo-speech';
 {/*import { Audio, Permissions,FileSystem } from 'expo'*/}
 
 export default function App() {
-const apiurl = 'http://www.omdbapi.com/?apikey=d00206ee'
+const apiurl = 'http://www.omdbapi.com/?apikey='
 const [state, setState] = useState({
   s:"Enter a movie name..",
   results: [],
